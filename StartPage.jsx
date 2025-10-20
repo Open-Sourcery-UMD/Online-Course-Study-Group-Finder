@@ -6,7 +6,6 @@ import supabase from '../supabase-client';
 const StartPage = () => {
     return (
         <div className='StartPage'>
-            </header> 
             <div>
                 <Link to="/home">
                     <button>Get Started!</button>
