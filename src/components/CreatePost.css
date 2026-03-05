@@ -1,0 +1,50 @@
+.CreatePost {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FDFCDC;
+    min-height: 100vh;
+}
+
+.CreatePost h2 {
+    color: #103516;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #103516;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #103516;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.CreatePost button {
+    width: 100%;
+    padding: 15px;
+    background-color: #AFBEA4;
+    color: #103516;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.CreatePost button:hover {
+    background-color: #103516;
+    color: #FDFCDC;
+}

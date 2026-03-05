@@ -1,0 +1,88 @@
+.FindGroups {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FDFCDC;
+    min-height: 100vh;
+}
+
+.FindGroups h2 {
+    color: #103516;
+    text-align: center;
+    font-size: 2em;
+}
+
+.filter-section {
+    background-color: #AFBEA4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-group label {
+    margin-bottom: 5px;
+    color: #103516;
+    font-weight: bold;
+}
+
+.filter-group input,
+.filter-group select {
+    padding: 10px;
+    border: 2px solid #103516;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.match-button {
+    grid-column: 1 / -1;
+    padding: 15px;
+    background-color: #103516;
+    color: #FDFCDC;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.match-button:hover {
+    background-color: #1a4d24;
+}
+
+.matches-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.match-card {
+    background-color: white;
+    border: 2px solid #103516;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px #AFBEA4;
+}
+
+.match-card h4 {
+    color: #103516;
+    margin-top: 0;
+    border-bottom: 2px solid #AFBEA4;
+    padding-bottom: 10px;
+}
+
+.no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #103516;
+    font-size: 1.2em;
+    padding: 40px;
+}
